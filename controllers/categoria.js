@@ -1,5 +1,5 @@
 const {response, request} = require('express');
-const {Categoria, Usuario} = require('../models')
+const {Categoria} = require('../models')
 
 
 //Obtener categorias con el paginado, el total + el metodo populate de Moongoose(con el id devuelve la informacion del ultimo usuario)

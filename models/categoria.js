@@ -13,7 +13,7 @@ const CategoriaSchema = Schema({
         required:true
     },
     usuario:{
-        type:Schema.Types.ObjectId,//Llama a otro objeto que se encuentra en Mono
+        type:Schema.Types.ObjectId,//Llama a otro objeto que se encuentra en Mongo
         ref:'Usuario',
         required:true
     }
